@@ -42,7 +42,7 @@ def get_input_size(method, ws):
 def get_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument('--window_size', type = int, default = 5)
-    parser.add_argument('--data_prefix', type = str, default = '.')
+    parser.add_argument('--data_prefix', type = str, default = './_preprocess_data/')
     parser.add_argument('--method', type = str, default = 'concatenate')
     parser.add_argument('--batch_size', type = int, default = 64)
     parser.add_argument('--seed', type = int, default = 0)
