@@ -5,6 +5,7 @@
 
 ## Train Config
 Here are the list of changeable parameters
+
 `window_size`
 
 `data_prefix`: the path of the dataset
