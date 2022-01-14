@@ -4,7 +4,7 @@ import numpy as np
 def get_device():
     return 'cuda:0' if torch.cuda.is_available() else 'cpu'
 
-def same_seeds(seed):
+def fix_seed(seed):
     torch.manual_seed(seed)
     if torch.cuda.is_available():
         torch.cuda.manual_seed(seed)
