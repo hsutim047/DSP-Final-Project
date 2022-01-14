@@ -6,10 +6,15 @@
 ## Train Config
 Here are the list of changeable parameters
 `window_size`
+
 `data_prefix`: the path of the dataset
+
 `method`: average, weight_average, left_concatenate, concatenate, right_concatenate
+
 `seed`
+
 `learning_rate`
+
 `epochs`
 
 ## Quick Start
